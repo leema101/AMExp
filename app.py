@@ -33,8 +33,8 @@ if "messages" not in st.session_state:
 if "retry_error" not in st.session_state:
     st.session_state.retry_error = 0
 
-st.set_page_config(page_title="Systematic Theology GPT")
-st.sidebar.title("Systematic Theology GPT")
+st.set_page_config(page_title="AMExp")
+st.sidebar.title("AMExp")
 st.sidebar.divider()
 st.sidebar.markdown("", unsafe_allow_html=True)
 st.sidebar.markdown("Current Version: 0.0.1")
